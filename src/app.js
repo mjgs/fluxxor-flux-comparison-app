@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import Fluxxor from 'Fluxxor';
 import App from './components/App.jsx';
 import Stores from './stores/Stores';
@@ -12,7 +13,7 @@ flux.on("dispatch", function(type, payload) {
   console.log("Dispatched", type, payload);
 });
 
-React.render(
+ReactDOM.render(
     React.createElement(App, { flux }),
     document.getElementById('flux-app')
 );

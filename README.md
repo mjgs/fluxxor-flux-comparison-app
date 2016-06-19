@@ -13,7 +13,4 @@ Working example of the [Fluxxor](http://fluxxor.com/) [flux-comparison](https://
 ## Notes
 
   * The common folder is the code shared across all the implemented flux solutions
-  * Uses React 0.13.3 since latest React 15.1.0 throws error: 
-  
-    app.js:15 Uncaught TypeError: _react2.default.render is not a function
  
